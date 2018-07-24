@@ -1,0 +1,37 @@
+#main {
+    padding: 15rem 0 5rem;
+}
+#hero {
+    background: #1289c6;
+    min-height: 400px;
+    padding: 5rem 0;
+}
+
+.navbar.navbar-transparent.main .navbar-collapse.collapsing, .navbar.main .navbar-collapse.collapse.in {
+    background: #fff;
+}
+
+@media (min-width: 768px) {
+    .navbar.navbar-transparent.main .navbar-header .navbar-brand {
+        padding: 0;
+        img {
+            height: 100px;
+        }
+    }
+    .navbar-header .navbar-brand {
+        padding: 0;
+        img {
+            height: 50px;
+        }
+    }
+    nav.navbar-transparent.navbar.main {
+        .navbar-nav {
+            li > a {
+                font-size: 16px;
+                font-weight: 400;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+        }
+    }
+}
